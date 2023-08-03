@@ -72,7 +72,7 @@ const Forms = () => {
           submit ?
                 <div className='popup'>
               <div className='popupp'>
-                <img style={{height:'60px', width:'60px', margin:'2rem', marginLeft:'-19rem'}}  src='https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/good_practice_2_0.png?zUWmBhjgYe6ek0L68YTRnUCQZo9lJo4v' alt="img" />
+                <img style={{height:'60px', width:'60px', margin: '2rem' }}  className='suc' src='https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/good_practice_2_0.png?zUWmBhjgYe6ek0L68YTRnUCQZo9lJo4v' alt="img" />
               <h1>Thanks for subscribing!</h1>
 
               <p className='pop' >

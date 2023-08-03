@@ -186,7 +186,10 @@ img{
 .top{
     display: none ;
 }
-@media only screen and (width: 390px ){
+img .suc{
+    margin-left: '-19rem';
+}
+@media only screen and (max-width: 400px ){
     .form {
             height: 100%;
             width: 100%;
@@ -228,7 +231,7 @@ img{
     
         h1 {
             color: hsl(218, 44%, 22%);
-            font-size: 50px;
+            font-size: 45px;
             font-weight: 40px;
             /* display: block; */
     
@@ -377,9 +380,10 @@ img{
         }
     
         .popupp {
-            height: 45%;
-            width: 30%;
-            margin-right: -9rem;
+            height: 55%;
+            width: 70%;
+            margin-right: 5rem;
+            margin-left: 5rem;
             background-color: #fff;
             display: flex;
             flex-direction: column;
@@ -394,7 +398,7 @@ img{
         }
     
         .pop {
-            width: 80%;
+            width: 70%;
             /* margin-t: ; */
         }
 }
@@ -441,8 +445,8 @@ img{
         
             h1 {
                 color: hsl(218, 44%, 22%);
-                font-size: 50px;
-                font-weight: 40px;
+                font-size: 30px;
+                font-weight: 70px;
                 /* display: block; */
         
             }
@@ -590,9 +594,10 @@ img{
             }
         
             .popupp {
-                height: 45%;
-                width: 30%;
-                margin-right: -9rem;
+                height: 70%;
+                width: 80%;
+                margin-right: 5rem;
+                margin-left: 5rem;
                 background-color: #fff;
                 display: flex;
                 flex-direction: column;
@@ -608,6 +613,7 @@ img{
         
             .pop {
                 width: 80%;
+                height: 100%;
                 /* margin-t: ; */
             }
 }
